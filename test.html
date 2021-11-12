@@ -12,9 +12,10 @@
 
 </script>
 <!--    <input type="button" value="test" onClick="alert('xcross')">-->
-    <input type="button" value="test" onClick="test()">
+    <input type="button" value="test" id="btn">
 <script>
-    function test(){
+    var btnClick = document.getElementById("btn")
+    btnClick.onclick = function () {
         alert("xxxcross")
     }
 </script>
