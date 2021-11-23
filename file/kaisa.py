@@ -10,7 +10,7 @@ for i in range(1, 26):
         else:
             plain = plain + j
     if n.lower() == 'y':
-        key = ('flag', 'ctf', 'key', 'the', 'is', 'no', 'for', 'cyber')
+        key = ('flag', 'ctf', 'key', 'the', 'is', 'no', 'for', 'cyber', 'cyberpeace')
         for m in key:
             if m in plain:
                 print('明文可能是：', plain)
